@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- 1. Homepage / Main Landing -->
+  <url>
+    <loc>https://feedtrain.me/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- 2. Features Breakdown -->
+  <url>
+    <loc>https://feedtrain.me/features</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 3. Pricing Plans & 3-Day Free Trial -->
+  <url>
+    <loc>https://feedtrain.me/pricing</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 4. Android APK Download & Install Guide -->
+  <url>
+    <loc>https://feedtrain.me/download</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 5. Creator & Educator Affiliate Program -->
+  <url>
+    <loc>https://feedtrain.me/affiliates</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 6. About Us & Our Mission -->
+  <url>
+    <loc>https://feedtrain.me/about</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- 7. Support & Troubleshooting -->
+  <url>
+    <loc>https://feedtrain.me/support</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- 8. Contact & Developer Inquiries -->
+  <url>
+    <loc>https://feedtrain.me/contact</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- 9. Privacy Policy (Zero Data Collection) -->
+  <url>
+    <loc>https://feedtrain.me/privacy</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- 10. Terms of Service -->
+  <url>
+    <loc>https://feedtrain.me/terms</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>

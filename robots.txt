@@ -1,0 +1,25 @@
+# FeedTrainMe robots.txt
+# https://feedtrain.me
+
+User-agent: *
+Allow: /
+Allow: /features
+Allow: /pricing
+Allow: /download
+Allow: /affiliates
+Allow: /about
+Allow: /support
+Allow: /contact
+Allow: /privacy
+Allow: /terms
+
+# Disallow private user accounts and admin portals from indexing
+Disallow: /admin
+Disallow: /account
+Disallow: /auth
+Disallow: /affiliate-dashboard
+Disallow: /download-thank-you
+Disallow: /thanks-buying
+
+# XML Sitemap
+Sitemap: https://feedtrain.me/sitemap.xml

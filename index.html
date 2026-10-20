@@ -65,17 +65,35 @@
     </script>
     <!-- Official FeedTrainMe Eye Logo SVG Favicon in Theme Colors (#84A282, #FEFAF3) -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpolygon points='20,26 80,51 77,55 19,30' fill='%2384A282'/%3E%3Cpath d='M 17 38 C 30 42, 54 48, 72 51 C 69 57, 69 63, 72 68 C 50 63, 30 54, 17 38 Z' fill='none' stroke='%2384A282' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='54' cy='53' r='7' fill='%2384A282'/%3E%3Ccircle cx='56.5' cy='51' r='2.5' fill='%23FEFAF3'/%3E%3C/svg%3E">
+    <!-- Performance Preconnections & DNS Prefetching -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700;1,800;1,900&family=Outfit:wght@500;600;700;800;900&family=JetBrains+Mono:wght@500;600;700;800&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="/assets/index-BAEs5Za7.js"></script>
+
+    <!-- Asynchronous Non-Render-Blocking Webfonts (High Performance) -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Outfit:wght@600;800&family=JetBrains+Mono:wght@600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Outfit:wght@600;800&family=JetBrains+Mono:wght@600;700&display=swap" media="print" onload="this.media='all'">
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Outfit:wght@600;800&family=JetBrains+Mono:wght@600;700&display=swap">
+    </noscript>
+    <script type="module" crossorigin src="/assets/index-Dtb3ZmN7.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-la_ZsWYt.js">
     <link rel="modulepreload" crossorigin href="/assets/vendor-icons-DWX2EA60.js">
     <link rel="modulepreload" crossorigin href="/assets/vendor-react-DSCHzX-8.js">
     <link rel="modulepreload" crossorigin href="/assets/vendor-supabase-DrbhGZHj.js">
-    <link rel="stylesheet" crossorigin href="/assets/index-mk9HQOWi.css">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-confetti-Byz_ELOO.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-Da7kxLuo.css">
   </head>
   <body class="bg-[#FEFAF3] text-[#84A282] antialiased selection:bg-[#B8CFB3] selection:text-[#84A282]">
     <div id="root"></div>
+    <!-- Register Performance & Cache Service Worker -->
+    <script>
+      if ('serviceWorker' in navigator && window.location.protocol === 'https:') {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/sw.js').catch(function() {});
+        });
+      }
+    </script>
   </body>
 </html>
